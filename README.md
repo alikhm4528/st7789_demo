@@ -16,5 +16,8 @@ To program blue pill using openocd, use following command
 sudo openocd -f interface/stlink.cfg -f target/stm32f1x.cfg \
   -c "program ST7789_demo_f103c8.elf verify reset exit"
 ```
+
+![st7789](st7789.png)
+
 good luck!
 
